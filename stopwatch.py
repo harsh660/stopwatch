@@ -6,6 +6,7 @@ def Main():
 
     root = Tk()
     root.title("Stopwatch")
+    root.wm_iconbitmap("istockphoto-918962870-1024x1024.ico")
     width = 600
     height = 200
     screen_width = root.winfo_screenwidth()
